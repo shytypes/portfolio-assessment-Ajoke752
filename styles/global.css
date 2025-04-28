@@ -25,44 +25,63 @@ body {
   flex-direction: column;
 }
 header {
-  height: 30vh;
+  height: 30%;
   margin-bottom: 4px;
   margin-top: 10px;
+
   align-self: center;
-  width: 50vw;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-view1 {
+  display: flex;
+  justify-content: end;
+  font-size: 25px;
+}
+
+#header-view2 {
   display: flex;
   flex-direction: row;
-}
-
-#header-left-view {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  align-self: center;
+  font-size: 15px;
+  color: white;
   margin-top: 20px;
 }
+#header-view2-left {
+  display: flex;
 
-#header-right-view {
+  justify-content: start;
+  color: white;
+}
+#header-view2-right {
   display: flex;
   flex-direction: column;
   margin-left: 130px;
-  padding-top: 100px;
-  width: 100%;
-  align-self: center;
   color: white;
 }
 
-#header-right-view > div > span {
-  font-size: 35px;
+#header-view2-right > div > span {
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
 }
-#header-right-view > div {
-  margin-bottom: 50px;
+#header-view2-right > div {
+  margin-bottom: 30px;
+}
+#button {
+  background-color: brown;
+  font-size: 25;
+}
+img {
+  border-radius: 50%;
 }
 
 #my-profile {
   display: flex;
   align-self: center;
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 50px;
   margin-bottom: 40px;
   font-family: 'Times New Roman', Times, serif;
