@@ -34,12 +34,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+/* 
 #header-view1 {
   display: flex;
   justify-content: end;
   font-size: 25px;
-}
+} */
 
 #header-view2 {
   display: flex;
@@ -49,6 +49,7 @@ header {
   font-size: 15px;
   color: white;
   margin-top: 20px;
+  border-bottom: ;
 }
 #header-view2-left {
   display: flex;
@@ -87,6 +88,8 @@ img {
   font-family: 'Times New Roman', Times, serif;
   color: white;
   word-spacing: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
 }
 main {
   display: flex;
@@ -135,7 +138,6 @@ li {
 }
 footer {
   display: flex;
-  flex: auto;
   justify-content: space-between;
   width: 50vw;
   flex-direction: row;
